@@ -3,7 +3,7 @@
 @section('title', 'Customer Management')
 @section('content-header', 'Customer Management')
 @section('content-actions')
-    <a href="{{route('customers.create')}}" class="btn btn-success"><i class="fas fa-plus"></i> Add New Customer</a>
+    <a href="{{route('customers.create')}}" class="btn btn-success"><i class="fas fa-plus"></i> Tambah Costumer Baru</a>
 @endsection
 @section('css')
     <link rel="stylesheet" href="{{ asset('plugins/sweetalert2/sweetalert2.min.css') }}">
@@ -15,13 +15,13 @@
             <thead class="thead-dark">
                 <tr>
                     <th>ID</th>
-                    <th>Avatar</th>
-                    <th>Name</th>
+                    <th>Foto Profil</th>
+                    <th>Nama</th>
                     <th>Email</th>
-                    <th>Contact</th>
-                    <th>Address</th>
-                    <th>Created At</th>
-                    <th>Actions</th>
+                    <th>Kontak</th>
+                    <th>Alamat</th>
+                    <th>Dibuat Tanggal</th>
+                    <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
